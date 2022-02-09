@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h2> inserte su tarjeta</h2> 
-      <input type="text"> 
-      <input type="button">
+      <h1>Compra tus entradas</h1>
     </header>
+    <div id="pagina1" class="visible">
+      <h2>Ingresa el número de tu tarjeta</h2>
+      <input type="text" id="txtTarjeta"/>
+      <input type="button" id="btnValidar" value="Validar" />
+    </div>
+    <div id="pagina2" class="oculto">
+      <h2 id="resultadoTarjeta1"></h2>
+      <h2>resultado correcto</h2>
+    </div>
+    <div id="pagina3" class="oculto">
+      <h2 id="resultadoTarjeta2"></h2>
+      <h2>resultado incorrecto</h2>
+    </div>
     <main></main>
     <footer></footer>
     <script src="index.js" type="module"></script>
