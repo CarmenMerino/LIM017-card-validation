@@ -1,4 +1,4 @@
-.visible{
+9.visible{
     display: block;
 }
 .oculto{
@@ -9,23 +9,196 @@ html {
   }
   body {
    background: linear-gradient(rgba(136, 9, 50, 1), rgba(57, 2, 21, 1));
-   height: 100%;
-  }
-#btnValidar{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 18px 32px;
-
-position: absolute;
-width: 186px;
-height: 52px;
-left: 654px;
-top: 652px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 15px rgba(46, 46, 46, 0.15);
-border-radius: 30px;
-    
+   height: s90%;
+   font-family: "Nunito", sans-serif;
+   font-size:0.9rem;
+   line-height: 1.6em; 
+   margin:0;
+   color: white;
 }
+.info {
+    margin: 0px auto;
+    text-align: center;
+}
+.container{
+    width: 85%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background: white;
+}
+.logo-nav-container {
+display: flex;
+justify-content: space-between;
+aling-items: center;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a {
+    text-decoration: none;
+    color:rgba(57, 2, 21, 1);
+    padding: 20 px;
+    display: block;
+}
+.logo-qatar img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.logo-qatar {
+    width: 170px;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  .card {
+    position: relative;
+    height: 267px;
+    width: 425px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);  /* This will produce the blur */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .logo img,
+  .chip img,
+  .number,
+  .name,
+  .from,
+  .to,
+  .ring {
+    position: absolute; /* All items inside card should have absolute position */
+  }
+  
+  .logo img {
+    top: 35px;
+    right: 40px;
+    width: 80px;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .chip img {
+    top: 120px;
+    left: 40px;
+    width: 50px;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .number,
+  .name,
+  .from,
+  .to {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .number {
+    left: 40px;
+    bottom: 65px;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .name {
+    font-size: 0.5rem;
+    left: 40px;
+    bottom: 35px;
+  }
+  
+  .from {
+    font-size: 0.5rem;
+    bottom: 35px;
+    right: 110px;
+  }
+  
+  .to {
+    font-size: 0.5rem;
+    bottom: 35px;
+    right: 40px;
+  }
+  .ring {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background: transparent;
+    border: 50px solid rgba(255, 255, 255, 0.1);
+    bottom: -250px;
+    right: -250px;
+    box-sizing: border-box;
+  }
+  
+  .ring::after {
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    background: transparent;
+    border: 30px solid rgba(255, 255, 255, 0.1);
+    bottom: -80px;
+    right: -110px;
+    box-sizing: border-box;
+  }
+footer{
+  background:black;
+  margin: 0px 0px;
+  text-align: center;
+  bottom: 0
+}
+#logos {
+  height:100px
+ }
+.logos {
+  width: auto; 
+  max-height: 100%; 
+  margin: 0px auto;
+  text-align: center;
+ }
+ #pagina2{
+  width: auto; 
+  max-height: 100%; 
+  margin: 0px auto;
+  text-align: center;
+ }
+ #pagina3{
+  width: auto; 
+  max-height: 100%; 
+  margin: 0px auto;
+  text-align: center;
+ }
+ #btnValidar{
+  border-radius: .25rem;
+  background-color: white;
+  color: rgba(57, 2, 21, 1;
+ }
