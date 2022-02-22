@@ -24,7 +24,7 @@ const validator = {
     }
   },
   maskify(numeroTarjeta) {
-    let numeroOculto = [];    
+    let numeroOculto = [];
     for (let e = 0; e<numeroTarjeta.length; e++) {
       if (e < numeroTarjeta.length - 4) {
         numeroOculto.push("#");
@@ -32,6 +32,7 @@ const validator = {
         numeroOculto.push(numeroTarjeta[e]);
       }
     }
+//convertir a string
     return numeroOculto.join('');
   },
 };
