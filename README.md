@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Resumen del proyecto](#1-Resumen-del-proyecto)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+* [2. Investigación UX](#2-investigación-ux)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -21,9 +21,9 @@ usuario validar el número de una tarjeta de crédito. Además, tiene
 implementada una funcionalidad para ocultar todos los dígitos de una tarjeta,
 menos los últimos cuatro.
 
+![vista final del proyecto](https://github.com/CarmenMerino/LIM017-card-validation/blob/prueba-1/src/imagenes/vista-final.png?raw=true)
 
-
-
+## 2. Investigación UX
 
 Para iniciar con el proyecto de la validación de una tarjeta de crédito, 
 se definió una temática y el público objetivo. En esta oportunidad tomamos
@@ -37,6 +37,9 @@ A través de la plataforma creada, los hinchas peruanos podrían comprar sin pro
 las entradas para los partidos donde 'Blanquirroja' haría rodar la pelota en tierras
 asiáticas. 
 
+Prototipo: 
+![prototipo](https://github.com/CarmenMerino/LIM017-card-validation/blob/prueba-1/src/imagenes/vista-final.png?raw=true)
+
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
 se utiliza para validar números de identificación; tales como el IMEI de los
@@ -48,9 +51,7 @@ par se les debe multiplicar por dos, si este número es mayor o igual a 10,
 debemos sumar los dígitos del resultado; el número a verificar será válido si
 la suma de sus dígitos finales es un múltiplo de 10.
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 2. Resumen del proyecto
 
 En este proyecto tendrás q
 ## 3. Objetivos de aprendizaje
