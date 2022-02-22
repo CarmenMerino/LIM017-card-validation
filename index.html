@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tarjeta de crédito válida</title>
+    <link rel="icon" href="imagenes\qatar.png" type="image/png" sizes="16x16"> 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-qatar">
+          <img src="imagenes/logo-qatar.jpg" />
+        </div>
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="enlace"><a href="#">Inicio</a></li>
+            <li class="enlace"><a href="#">Acerca</a></li>
+            <li class="enlace"><a href="#">Servicios</a></li>
+            <li class="enlace"><a href="#">Clientes</a></li>
+            <li class="enlace"><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <nav id="nav"></nav>
+    <div class="logos">
+      <h1>    Perú vs. Francia</h1>
+      <img id="logos" src="imagenes/logos.png"/> 
+    </div>
+
+    <div id="pagina1" class="card-group visible">
+      <div class="card">
+        <div class="logo"><img src="imagenes\visa.png" alt="Visa"></div>
+        <div class="chip"><img src="imagenes\chip.png" alt="chip"></div>
+        <div class="number">
+          <p id="pTarjeta"></p>
+        </div>
+        <div class="name">SHOUNAK DAS</div>
+        <div class="from">10/19</div>
+        <div class="to">06/21</div>
+        <div class="ring"></div>
+      </div>
+      <div class="info">
+        <h2>Ingresa el número de tu tarjeta</h2>
+      <input type="text" id="txtTarjeta" />
+      <input type="button" id="btnValidar" value="Validar" />
+      </div>
+    </div>
+    
+
+
+
+  
+    <div id="pagina2" class="oculto">
+      <h2 id="resultadoTarjeta1"></h2>
+      <h2>¡Felicitaciones! <br> La tarjeta es válida y has adquirido <br> tus entradas para el Perú vs. Francia  </h2>
+      <input type="button" id="btnSiguiente" value="Siguiente"> 
+    </div>
+    <div id="pagina3" class="oculto">
+      <h2 id="resultadoTarjeta2"></h2>
+      <h2>La tarjeta ingresada no es correcta, <br> inténtalo nuevamente</h2>
+      <input type="button" id="btnRegresar" value="Regresar">
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
