@@ -32,6 +32,7 @@ las entradas para los partidos donde 'Blanquirroja' haría rodar la pelota en ti
 asiáticas. 
 
 Prototipo: 
+
 ![prototipo](https://github.com/CarmenMerino/LIM017-card-validation/blob/prueba-1/src/imagenes/prototipo.jpg?raw=true)
 
 ## 3. Algoritmo de Luhn
