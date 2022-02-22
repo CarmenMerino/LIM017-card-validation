@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
+* [1. Resumen del proyecto](#1-Resumen-del-proyecto)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
@@ -14,7 +14,28 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Resumen del proyecto
+
+El presente proyecto consta en una aplicación web que le permite a un
+usuario validar el número de una tarjeta de crédito. Además, tiene 
+implementada una funcionalidad para ocultar todos los dígitos de una tarjeta,
+menos los últimos cuatro.
+
+
+
+
+
+Para iniciar con el proyecto de la validación de una tarjeta de crédito, 
+se definió una temática y el público objetivo. En esta oportunidad tomamos
+el Mundial Qatar 2022, específicamente en un partido jugado por Perú ante Francia. 
+
+Las vistas realizadas en este proyecto, se trabajaron pensando en los hinchas 
+peruanos, que actualmente sueñan con volver a ver a su país en la que es,
+sin lugar a dudas, la fiesta más grande del fútbol mundial. 
+
+A través de la plataforma creada, los hinchas peruanos podrían comprar sin problema
+las entradas para los partidos donde 'Blanquirroja' haría rodar la pelota en tierras
+asiáticas. 
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
@@ -31,20 +52,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
-
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
+En este proyecto tendrás q
 ## 3. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
